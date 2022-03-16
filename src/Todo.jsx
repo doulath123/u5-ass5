@@ -33,11 +33,7 @@ export const Todo=()=>{
            {todos.map((e)=>(
                 <div key={e.id}>{e.title}
                 {e.perchage}
-                <button onClick={(e)=>{
-       
-       e.target.parentNode.remove()
-         
-     }}>DELETE</button>
+                
                </div>
                
                 
